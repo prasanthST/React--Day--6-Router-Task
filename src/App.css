@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.active{
+  text-decoration: underline;
+  color:#0aaa01;
+}
+ul li a:hover{
+  color: black;
+}
+ul li a{
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div:nth-child(-n + 2) {
+  margin-right: auto;
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+.card:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
+
+} 
